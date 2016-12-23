@@ -9,50 +9,26 @@ end
 if msg.text == "چه خبر" then
 	return reply_msg(msg.id,  "سلامتی", ok_cb, false)
 end
-if msg.text == "تله بیوند" then
+if msg.text == "ماکسیموس" then
 	return reply_msg(msg.id, "بلی؟", ok_cb, false)
 end
-if msg.text == "سعید" then
+if msg.text == "امین" then
 	return reply_msg(msg.id, "مآی فادِر بیا این دئوث کارت داره😐", ok_cb, false)
 end
-if msg.text == "Solid" then
+if msg.text == "Amin" then
 	return reply_msg(msg.id, "مآی فادِر بیا این دئوث کارت داره😐", ok_cb, false)
 end
-if msg.text == "solid" then
+if msg.text == "amin" then
 	return reply_msg(msg.id, "مآی فادِر بیا این دئوث کارت داره😐", ok_cb, false)
 end
-if msg.text == "mrhalix" then
+if msg.text == "awmin" then
 	return reply_msg(msg.id, "با بابا امینم چکار داری؟", ok_cb, false)
 end
-if msg.text == "Mrhalix" then
+if msg.text == "Awmin" then
 	return reply_msg(msg.id, "با بابا امینم چکار داری؟", ok_cb, false)
-end
-if msg.text == "بهنام" then
-	return reply_msg(msg.id, "بهنام سرش شلوغه برو فردا بیا :|", ok_cb, false)
-end
-if msg.text == "behnam" then
-	return reply_msg(msg.id, "بهنام سرش شلوغه برو فردا بیا :|", ok_cb, false)
-end
-if msg.text == "Behnam" then
-	return reply_msg(msg.id, "بهنام سرش شلوغه برو فردا بیا :|", ok_cb, false)
-end
-if msg.text == "beyondteam" then
-	return reply_msg(msg.id, "Best Team Of Telegram😎", ok_cb, false)
-end
-if msg.text == "Beyondteam" then
-	return reply_msg(msg.id, "Best Team Of Telegram😎", ok_cb, false)
-end
-if msg.text == "beyond team" then
-	return reply_msg(msg.id, "Best Team Of Telegram😎", ok_cb, false)
-end
-if msg.text == "Beyond team" then
-	return reply_msg(msg.id, "Best Team Of Telegram😎", ok_cb, false)
 end
 if msg.text == "ربات" then
 	return reply_msg(msg.id, "وات؟😐", ok_cb, false)
-end
-if msg.text == "کانال" then
-	return reply_msg(msg.id, "کانال تیم @BeyondTeam", ok_cb, false)
 end
 if msg.text == "امبرلا" then
 	return reply_msg(msg.id, "اسم اصلیش چسبرلاست😂", ok_cb, false)
@@ -66,17 +42,8 @@ end
 if msg.text == "نوا" then
 	return reply_msg(msg.id, "چس اسپمر نگاییدم", ok_cb, false)
 end
-if msg.text == "سلید" then
+if msg.text == "اومین" then
 	return reply_msg(msg.id, "مآی فادِر بیا این دئوث کارت داره😐", ok_cb, false)
-end
-if msg.text == "telebeyond" then
-	return reply_msg(msg.id, "What?", ok_cb, false)
-end
-if msg.text == "Telebeyond" then
-	return reply_msg(msg.id, "بلی؟", ok_cb, false)
-end
-if msg.text == "TeleBeyond" then
-	return reply_msg(msg.id, "بلی؟", ok_cb, false)
 end
 if msg.text == "bot" then
 	return reply_msg(msg.id, "😐؟", ok_cb, false)
@@ -120,11 +87,10 @@ return {
 		"^کانال$",
 		"^ربات$",
    "^امبرلا$",
-		"^[Tt]eleBeyond$",
-  		"^[Bb]ehnam$",
+		"^[Mm]aximus$",
    "^/start$",
    "^[Bb]eyondteam$",
-   "^[Ss]olid$",
+   "^[Aa]min$",
    "^[Bb]eyond team$",
    "^[Xx]y$",
                                 "^[Tt]elebeyond$",
@@ -132,10 +98,10 @@ return {
                                 "^[Bb]ot$",
 		"^؟$",
 		"^بای$",
-		"^سعید$",
-		"^بهنام$",
-		"^سلید$",
-		"^[Mm]rhalix$"
+		"^امین$",
+		"^اومین$",
+		"^amin$",
+		"^[Aa]wmin$"
 		}, 
 	run = run,
 	pre_process = pre_process
